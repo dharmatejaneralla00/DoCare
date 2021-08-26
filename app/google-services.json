@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "16110285146",
+    "firebase_url": "https://docare-7bfad-default-rtdb.firebaseio.com",
+    "project_id": "docare-7bfad",
+    "storage_bucket": "docare-7bfad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16110285146:android:d93d8803532ed08c9e0363",
+        "android_client_info": {
+          "package_name": "com.marveltech.docare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16110285146-5blppqlvl8t6b7go3elenfu20vs352as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marveltech.docare",
+            "certificate_hash": "ea64e4c58d5caffcce91b352dbcdfa93517fff15"
+          }
+        },
+        {
+          "client_id": "16110285146-2ra7lgdtj2i2b610f782huckn9uu644h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHMoOBLRGrRvqczxS6rnpddpyKfrvlEIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16110285146-2ra7lgdtj2i2b610f782huckn9uu644h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

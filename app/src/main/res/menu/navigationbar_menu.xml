@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:title="Dashboard"
+        android:id="@+id/navbarmenu_dashboard"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:title="History"
+        android:id="@+id/navbarmenu_history"
+        android:icon="@drawable/ic_baseline_history_24"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/navbarmenu_profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/navbarmenu_settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+</group>
+
+        <item android:title="Help">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item android:title="Help"
+                    android:id="@+id/navbarmenu_help"
+                    android:icon="@drawable/ic_baseline_help_24"/>
+                <item android:title="About"
+                    android:id="@+id/navbarmenu_about"
+                    android:icon="@drawable/ic_baseline_speaker_notes_24"/>
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="Contact Us">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item android:title="Mail"
+                    android:id="@+id/navbar_contactus"
+                    android:icon="@drawable/ic_baseline_contact_mail_24"/>
+                </group>
+            </menu>
+        </item>
+</menu>

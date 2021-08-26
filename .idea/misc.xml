@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DoCare/app/src/main/res/drawable/custombutton.xml" value="0.21796875" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/activity_appointment_or_booking.xml" value="0.2" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/activity_beds.xml" value="0.19023224043715847" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/bedsrecyclerlist.xml" value="0.19023224043715847" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/bedsrecyclerview.xml" value="0.205859375" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/custombedbooking.xml" value="0.205859375" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/custombeddetails.xml" value="0.205859375" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/custombeddialog.xml" value="0.205859375" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/fragment_dashboard.xml" value="0.11330049261083744" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/fragment_history.xml" value="0.165625" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/fragment_settings.xml" value="0.1796875" />
+        <entry key="..\:/DoCare/app/src/main/res/layout/navbar_headerlayout.xml" value="0.27447916666666666" />
+        <entry key="..\:/DoCare/app/src/main/res/menu/bottomnavbar.xml" value="0.36614583333333334" />
+        <entry key="..\:/DoCare/app/src/main/res/menu/navigationbar_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

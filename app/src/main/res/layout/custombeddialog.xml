@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:layout_height="280dp"
+    android:layout_marginTop="20dp"
+    android:elevation="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bed Booking"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/custombeddialog_hname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/custombeddialog_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="location"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/custombeddialog_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="110dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/custombeddialog_bookbed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background=""
+        android:text="Book Bed"
+        android:textColor="@color/color1"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/custombeddialog_verify"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_baseline_verified_24" />
+
+</androidx.cardview.widget.CardView>

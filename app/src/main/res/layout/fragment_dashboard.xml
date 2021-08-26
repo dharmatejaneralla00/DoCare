@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="30sp"
+    tools:context=".Fragments.DashboardFragment">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingTop="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appoint_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:elevation="8dp">
+
+                <ImageView
+                    android:id="@+id/bedimg_hiome"
+                    android:layout_width="120dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/hospitalbed" />
+
+                <TextView
+                    android:id="@+id/textView15_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bedimg_hiome"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Appointment"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/oxygen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            app:cardElevation="8dp"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:id="@+id/ambulane_home"
+                    android:layout_width="120dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/oxygen" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ambulane_home"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Oxygen"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="185dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingTop="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ambulance_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:elevation="8dp">
+
+                <ImageView
+                    android:id="@+id/ambulance_home_img"
+                    android:layout_width="120dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/ambulance" />
+
+                <TextView
+                    android:id="@+id/textView16_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ambulance_home_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Appointment"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/medicines"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:id="@+id/medicine_home"
+                    android:layout_width="120dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/medicine" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/medicine_home"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Oxygen"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginTop="375dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingTop="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hospitals_home"
+            app:cardElevation="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:elevation="8dp">
+
+                <ImageView
+                    android:id="@+id/gospital_hiome"
+                    android:layout_width="120dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/hospital" />
+
+                <TextView
+                    android:id="@+id/textView18_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gospital_hiome"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Hospitals Nearby"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appoint_consult"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:id="@+id/bloodbanks_home"
+                    android:layout_width="120dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/donation" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bloodbanks_home"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="2dp"
+                    android:text="Blood Banks"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>

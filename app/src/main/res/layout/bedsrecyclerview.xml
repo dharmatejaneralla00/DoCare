@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:backgroundTint="@color/white"
+    android:backgroundTintMode="src_over"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="20dp"
+    app:cardElevation="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/hospitalbed" />
+
+    <TextView
+        android:id="@+id/bedbookng_hname"
+        android:layout_width="232dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="3dp"
+        android:text="Hospital Name"
+        android:textColor="@color/color2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/bedbooking_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Location"
+        android:textColor="@color/color1"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/gps1" />
+
+    <ImageView
+        android:id="@+id/bedbooking_verified"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_baseline_verified_24" />
+</androidx.cardview.widget.CardView>

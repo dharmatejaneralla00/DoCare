@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:layout_height="280dp"
+    android:layout_marginTop="20dp"
+    android:elevation="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custombedbooking_hname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/custombedbooking_name"
+        android:layout_width="322dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Patient Name"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textColorHint="@color/color1"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/custombedbooking_age"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:textSize="15sp"
+        android:textColor="@color/color1"
+        android:textColorHint="@color/color1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/custombedbooking_phone"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_gravity="center_horizontal"
+        android:inputType="phone"
+        android:textSize="15sp"
+        android:textColor="@color/color1"
+        android:textColorHint="@color/color1"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/custombedbooking_bookbed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background=""
+        android:text="Book Bed"
+        android:textColor="@color/color1"
+        android:textSize="16sp" />
+
+
+</androidx.cardview.widget.CardView>
